@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    interpolator:内插器，用了先加速后减速内插器-->
+<!--图片由（0，0）移动到（1,1），由0放缩到1-->
+<scale
+    android:duration="1000"
+    android:fromXScale="0.0"
+    android:fromYScale="0.0"
+    android:toXScale="1.0"
+    android:toYScale="1.0"
+    android:pivotX="0.5"
+    android:pivotY="0.5"
+    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+
+    />
+</set>
